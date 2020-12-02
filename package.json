@@ -1,0 +1,12 @@
+{
+  "name": "fxss_design",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/gattyan27/fxss_design.git",
+  "author": "Kuniyuki Iizawa",
+  "license": "MIT",
+  "dependencies": {
+    "gulp": "^4.0.2",
+    "gulp-sass": "^4.1.0"
+  }
+}
