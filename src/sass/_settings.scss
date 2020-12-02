@@ -1,0 +1,31 @@
+//body background-color
+$body-backgraound-color: #f4f4f4;
+
+//color
+$primary-color: rgba(0, 146, 134, 1.0);
+
+//font
+$font-family: "Hiragino Kaku Gothic ProN","Hiragino Sans",Meiryo,sans-serif;
+$font-size-base: 1.3rem;
+
+//font color
+$font-color: rgba(0, 0, 0, 0.8);
+$link-color: rgba(33, 124, 233, 1.0);
+
+//button
+$default-button-color: rgba(0, 0, 0, 0.65);
+$default-button-boderColor:rgba(217, 217, 217, 1.0);
+$default-button-bgColor:rgba(255, 255, 255, 1.0);
+$default-button-hover-bgColor:rgba(242, 255, 254, 1.0);
+
+$primary-button-color: rgba(255, 255, 255, 1.0);
+$primary-button-bgColor: $primary-color;
+$primary-button-hoverColor: rgba(1, 168, 154, 1.0);
+
+//input
+$default-input-boderColor: rgba(219, 219, 219, 1.0);
+$default-input-activeColor: $link-color;
+$default-input-focusColor: $link-color;
+
+//transition time
+$transition-time: 0.25s;
