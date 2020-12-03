@@ -16,7 +16,7 @@ body {
   font-family: $font-family;
   font-size: $font-size-base;
   color: $font-color;
-  background-color: $body-backgraound-color;
+  background-color:#ffffff;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -45,6 +45,7 @@ a {
 
 button {
   display: block;
+  width: 100%;
   border-radius: 3px;
   color: $default-button-color;
   font-size: inherit;
@@ -75,6 +76,18 @@ textarea {
   &:focus {
     border: 1px solid $default-input-focusColor;
   }
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  border: 1px solid #C3C3C3;
+  outline: none;
+  display: block;
+  height: 50px;
+  width: 100%;
+  padding: 1rem;
+  font-weight: bold;
 }
 
 select {

@@ -1,0 +1,37 @@
+@import "_settings";
+
+.primary-button {
+  font-size: 1.6rem;
+  height: 50px;
+  color: #ffffff;
+  border-radius: 50px;
+  border-color: #236ED5;
+  background-color: #236ED5;
+  box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.5);
+}
+
+label {
+}
+
+input {
+  border-radius: 5px;
+}
+
+.form-box {
+  padding-bottom: 25px;
+}
+
+.label-box {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-bottom: 10px;
+}
+
+.label-box span {
+  font-size: 1.1rem;
+}
+
+.label-box label {
+  font-weight: bold;
+}
