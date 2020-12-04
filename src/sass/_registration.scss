@@ -1,22 +1,30 @@
 @import "_settings";
 
-.registration-content {
-  padding: 30px 20px 80px;
-  background-color: #F7F6F2;
-}
-
+/*ユーザー登録、興味関心共通タイトル*/
 .registration-title h1 {
   font-size: 2.1rem;
   font-weight: 700;
   color: #6F3800;
-  padding-bottom: 20px;
+  padding: 30px 20px 20px;
+  background-color: #F7F6F2;
 }
-
 .registration-subtitle p {
   font-size: 1.3rem;
   line-height: 1.5;
   font-weight: 700;
-  padding-bottom: 20px;
+  padding: 0 20px 20px;
+  background-color: #F7F6F2;
+}
+
+.registration-content {
+  padding: 0 20px 80px;
+  background-color: #F7F6F2;
+}
+
+.interest-content {
+  padding-bottom: 80px;
+  background-color: #ffffff;
+  background-color: #F7F6F2;
 }
 
 .form-wrapname {
@@ -71,4 +79,22 @@
 .form-university {
   width: 100%;
   margin-left: 10px;
+}
+
+.interest-checklist {
+  li {
+    margin-bottom: 1px;
+    background-color: #ffffff;
+    padding-left: 15px;
+  }
+  li label {
+    display: block;
+    width: 100%;
+    height: 55px;
+    font-size: 1.4rem;
+    line-height: 55px;
+  }
+  li label input[type="checkbox"] {
+    margin-right: 10px;
+  }
 }
