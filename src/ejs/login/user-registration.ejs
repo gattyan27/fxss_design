@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/assets/css/style.css">
+  <title>ユーザー登録</title>
+</head>
+<body>
+  <main>
+    <div class="registration-content">
+
+      <div class="registration-title">
+        <h1>ユーザー登録</h1>
+      </div>
+      <div class="registration-subtitle">
+        <p>ユーザー登録時に登録した情報は企業へのエントリーの際に必要になります。</p>
+      </div>
+
+      <div class="form-wrapname">
+        <div class="form-box">
+          <div class="label-box">
+            <label for="sei-kanji">姓</label>
+            <span>例) 山田</span>
+          </div>
+          <div class="input-box">
+            <input type="text" id="sei-kanji">
+          </div>
+        </div>
+        <div class="form-box">
+          <div class="label-box">
+            <label for="mei-kanji">名</label>
+            <span>例) 太郎</span>
+          </div>
+          <div class="input-box">
+            <input type="text" id="mei-kanji">
+          </div>
+        </div>
+      </div><!--/姓名-->
+
+      <div class="form-wrapname">
+        <div class="form-box">
+          <div class="label-box">
+            <label for="sei-kana">セイ</label>
+            <span>例) ヤマダ</span>
+          </div>
+          <div class="input-box">
+            <input type="text" id="sei-kana">
+          </div>
+        </div>
+        <div class="form-box">
+          <div class="label-box">
+            <label for="mei-kana">メイ</label>
+            <span>例) タロウ</span>
+          </div>
+          <div class="input-box">
+            <input type="text" id="mei-kana">
+          </div>
+        </div>
+      </div><!--/セイメイ-->
+
+      <div class="form-box">
+        <div class="label-box">
+          <label for="">メールアドレス</label>
+        </div>
+        <div class="input-box">
+          <p class="registration-mailtxt">info@fxss.com</p>
+        </div>
+      </div><!--/メールアドレス-->
+
+      <div class="form-box form-tel">
+        <div class="label-box">
+          <label for="tel">電話番号</label>
+          <span>ハイホン(-)抜き</span>
+        </div>
+        <div class="input-box">
+          <input type="number" id="tel">
+        </div>
+      </div><!--/電話番号-->
+
+      <div class="form-box form-wrapselect">
+        <div class="label-box">
+          <label for="">生年月日</label>
+        </div>
+        <div class="input-boxwrap">
+          <div class="input-box form-year">
+            <select name="" id="">
+              <option value="">選択</option>
+              <option value="">1990</option>
+              <option value="">1989</option>
+              <option value="">1988</option>
+            </select>
+          </div>
+          <span>年</span>
+          <div class="input-box form-month">
+            <select name="" id="">
+              <option value="">選択</option>
+              <option value="">1</option>
+              <option value="">2</option>
+              <option value="">4</option>
+              <option value="">5</option>
+              <option value="">6</option>
+              <option value="">7</option>
+              <option value="">8</option>
+              <option value="">9</option>
+              <option value="">10</option>
+              <option value="">11</option>
+              <option value="">12</option>
+            </select>
+          </div>
+          <span>月</span>
+          <div class="input-box form-day">
+            <select name="" id="">
+              <option value="">選択</option>
+              <option value="">1</option>
+              <option value="">2</option>
+              <option value="">4</option>
+              <option value="">5</option>
+              <option value="">6</option>
+              <option value="">7</option>
+              <option value="">8</option>
+              <option value="">9</option>
+              <option value="">10</option>
+              <option value="">11</option>
+              <option value="">12</option>
+              <option value="">13</option>
+              <option value="">14</option>
+              <option value="">15</option>
+              <option value="">16</option>
+              <option value="">17</option>
+              <option value="">18</option>
+              <option value="">19</option>
+              <option value="">20</option>
+              <option value="">21</option>
+              <option value="">22</option>
+              <option value="">23</option>
+              <option value="">24</option>
+              <option value="">25</option>
+              <option value="">26</option>
+              <option value="">27</option>
+              <option value="">28</option>
+              <option value="">29</option>
+              <option value="">30</option>
+              <option value="">31</option>
+            </select>
+          </div>
+          <span>日</span>
+        </div>
+      </div><!--/生年月日-->
+
+      <div class="form-box form-wrapselect">
+        <div class="label-box">
+          <label for="">卒業見込み</label>
+        </div>
+        <div class="input-boxwrap">
+          <div class="input-box form-aline">
+            <select name="" id="">
+              <option value="">ア行</option>
+              <option value="">カ</option>
+              <option value="">サ</option>
+              <option value="">タ</option>
+              <option value="">ナ</option>
+              <option value="">ハ</option>
+              <option value="">マ</option>
+              <option value="">ヤ</option>
+              <option value="">ラ</option>
+              <option value="">ワ</option>
+            </select>
+          </div>
+          <div class="input-box form-university">
+            <select name="" id="">
+              <option value="">大学名を選択</option>
+              <option value="">あああ大学</option>
+              <option value="">いいい大学</option>
+              <option value="">ううう大学</option>
+            </select>
+          </div>
+        </div>
+      </div><!--/大学名-->
+
+      <div class="form-box">
+        <div class="label-box">
+          <label for="coourse">学部・学科</label>
+        </div>
+        <div class="input-box">
+          <input type="text" id="coourse">
+        </div>
+      </div>
+
+      <div class="form-box form-wrapselect">
+        <div class="label-box">
+          <label for="">卒業見込み</label>
+        </div>
+        <div class="input-boxwrap">
+          <div class="input-box form-year">
+            <select name="" id="">
+              <option value="">選択</option>
+              <option value="">2022</option>
+              <option value="">2021</option>
+              <option value="">2020</option>
+            </select>
+          </div>
+          <span>年</span>
+          <div class="input-box form-month">
+            <select name="" id="">
+              <option value="">選択</option>
+              <option value="">1</option>
+              <option value="">2</option>
+              <option value="">4</option>
+              <option value="">5</option>
+              <option value="">6</option>
+              <option value="">7</option>
+              <option value="">8</option>
+              <option value="">9</option>
+              <option value="">10</option>
+              <option value="">11</option>
+              <option value="">12</option>
+            </select>
+          </div>
+          <span>月</span>
+        </div>
+      </div><!--/卒業見込-->
+
+      <div class="form-box">
+        <div class="label-box">
+          <label for="course">薬局実習期間</label>
+        </div>
+        <div class="input-box">
+          <select name="" id="course">
+            <option value="">実習期間を選択してください</option>
+            <option value="">実習期間1</option>
+            <option value="">実習期間2</option>
+            <option value="">実習期間3</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="form-box">
+        <div class="label-box">
+          <label for="hospital">病院実習期間</label>
+        </div>
+        <div class="input-box">
+          <select name="" id="hospital">
+            <option value="">実習期間を選択してください</option>
+            <option value="">実習期間1</option>
+            <option value="">実習期間2</option>
+            <option value="">実習期間3</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="footerbutton-sigle">
+        <button type="submit" class="primary-button">次へ</button>
+      </div>
+
+    </div>
+  </main>
+</body>
+</html>

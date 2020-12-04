@@ -1,0 +1,74 @@
+@import "_settings";
+
+.registration-content {
+  padding: 30px 20px 80px;
+  background-color: #F7F6F2;
+}
+
+.registration-title h1 {
+  font-size: 2.1rem;
+  font-weight: 700;
+  color: #6F3800;
+  padding-bottom: 20px;
+}
+
+.registration-subtitle p {
+  font-size: 1.3rem;
+  line-height: 1.5;
+  font-weight: 700;
+  padding-bottom: 20px;
+}
+
+.form-wrapname {
+  display: flex;
+}
+
+.form-wrapname {
+  .form-box {
+    width: 130px;
+  }
+  .form-box:first-child {
+    margin-right: 20px;
+  }
+}
+
+.form-tel {
+  width: 160px;
+}
+
+.registration-mailtxt {
+  font-weight: bold;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.form-wrapselect {
+  .input-boxwrap {
+    display: flex;
+  }
+  span {
+    position: relative;
+    top: 35px;
+    font-weight: 700;
+    height: 1rem;
+    padding: 0 10px 0 5px;
+  }
+}
+
+.form-year {
+  width: 85px;
+}
+
+.form-month,
+.form-day {
+  width: 65px;
+}
+
+.form-aline {
+  width: 75px;
+}
+
+.form-university {
+  width: 100%;
+  margin-left: 10px;
+}
