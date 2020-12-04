@@ -1,0 +1,75 @@
+@import "_settings";
+
+.sp-none {
+  display: none;
+}
+
+.home-content {
+  padding: 64px 0 0;
+  background-color: #F7F6F2;
+}
+
+.home-userbox {
+  height: 64px;
+  padding: 5px 0;
+  margin-bottom: 28px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background-color: #ffffff;
+}
+
+.home-userimg {
+  border: 1px solid #ccc;
+  height: 40px;
+  width: 40px;
+  border-radius: 20px;
+}
+
+.home-logoutbutton {
+  width: 87px;
+}
+
+.home-title {
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+
+.home-tilebox {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 0 10px 10px;
+}
+
+.search-box {
+  height: 200px;
+}
+
+.home-cardlistwrap {
+  width: 100%;
+  height: 165px;
+  padding-left: 10px;
+  overflow-x: auto;
+}
+
+.home-cardlistwrap {
+  ul {
+    width: 1000px;
+    height: 165px;
+    background-color: #ccc;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  ul li {
+  }
+  ul li a {
+    display: block;
+    width: 160px;
+    height: 165px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    border-radius: 3px;
+  }
+}
