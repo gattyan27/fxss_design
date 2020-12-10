@@ -1,0 +1,90 @@
+@import "_settings";
+
+.search_input_box {
+  position: fixed;
+  top: 65px;left: 0;
+  z-index: 9998;
+  height: 46px;
+  width: 100%;
+  padding: 10px;
+  .search_input {
+    border-radius: 50px;
+    opacity: 0.9;
+    padding-left: 2rem;
+  }
+}
+
+.search_container {
+  background-color: #F7F6F2;
+  padding: 75px 15px 0;
+}
+
+.search_img {
+  position: relative;
+  width: 100%;
+  height: 175px;
+  background-size: contain;
+  background-color: #ccc;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+}
+
+.search_folder_icn {
+  position: absolute;
+  bottom: 10px;right: 10px;
+  width: 40px;
+  height: 40px;
+  border-radius: 23px;
+  background-color: #ffffff;
+}
+
+.search_section {
+  border-radius: 3px;
+  background-color: #ffffff;
+  margin-bottom: 15px;
+}
+
+.search_sectiontxtbox {
+  padding: 15px 15px 15px;
+  > a {
+    display: block;
+    color: #4a4a4a;
+  }
+}
+
+.search_tags {
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 10px;
+  li {
+    font-size: 1.1rem;
+    padding-right: 10px;
+    color: #707070;
+  }
+}
+
+.search_title {
+  font-size: 1.4rem;
+  font-weight: 700;
+  padding-bottom: 10px;
+}
+
+.search_leadtxt {
+  font-size: 1.1rem;
+  line-height: 1.5;
+  padding-bottom: 10px;
+}
+
+.search_isitem {
+  font-size: 1.2rem;
+  padding-top: 10px;
+  border-top: 1px solid #ccc;
+  li {
+    padding-bottom: 7px;
+  }
+}
+
+.search_comname {
+  font-size: 1.3rem;
+  padding-top: 10px;
+}
