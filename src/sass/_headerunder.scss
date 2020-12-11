@@ -1,0 +1,47 @@
+@import "_settings";
+
+.headerundernav {
+  background-color: #DFBA88;
+  padding-top: 64px;
+}
+
+.headerundernav_inner {
+  height: 34px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 0 15px;
+}
+
+.headerundernav_back {
+  width: 10%;
+}
+
+.headerundernav_title {
+  width: 80%;
+  font-size: 1.1rem;
+  text-align: center;
+  font-weight: 700;
+  color: #6F3800;
+}
+
+.comdetail_headerimg {
+  min-height: 175px;
+  background-size: contain;
+  position: relative;
+}
+
+.comdetail_comlogo {
+  width: 80px;
+  height: 56px;
+  border: 1px solid #ccc;
+  background-color: #ffffff;
+  position: absolute;
+  bottom: -30px;
+  left: 10px;
+}
+
+.comdetail_headersubtxt {
+  padding-top: 40px;
+  line-height: 1.5;
+}

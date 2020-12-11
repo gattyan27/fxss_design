@@ -8,9 +8,11 @@
   width: 100%;
   padding: 10px;
   .search_input {
+    font-weight: 500;
+    color: #A3A3A3;
     border-radius: 50px;
     opacity: 0.9;
-    padding-left: 2rem;
+    padding-left: 3rem;
   }
 }
 
@@ -87,4 +89,35 @@
 
 .search_comname {
   font-size: 1.3rem;
+}
+
+.search_comtitle {
+  font-size: 1.3rem;
+  padding-bottom: 5px;
+}
+
+.search_comnamekana {
+  font-size: 1.0rem;
+  color: #707070;
+  padding-bottom: 15px;
+}
+
+.search_comadd {
+  dt {
+    font-size: 1.0rem;
+    padding-bottom: 5px;
+    color: #707070;
+  }
+  dd {
+    font-size: 1.1rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+}
+
+
+
+.comdetail_container {
+  padding: 15px;
 }
