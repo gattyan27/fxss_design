@@ -1,16 +1,19 @@
 @import "_settings";
 
 .headerundernav {
-  background-color: #DFBA88;
-  padding-top: 64px;
 }
 
 .headerundernav_inner {
+  position: fixed;
+  top: 64px;left: 0;
+  z-index: 9997;
+  width: 100%;
   height: 34px;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   padding: 0 15px;
+  background-color: #DFBA88;
 }
 
 .headerundernav_back {
