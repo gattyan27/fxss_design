@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/assets/css/style.css">
+  <title></title>
+</head>
+<body>
+
+  <%- include('../_header'); -%>
+
+  <div class="headerundernav">
+    <div class="headerundernav_inner">
+      <a href="headerundernav_back">Back</a>
+      <p class="headerundernav_title">法人検索</p>
+    </div>
+  </div>
+
+  <main>
+
+    <div class="com_searchformbox">
+      <p class="page_title">法人名で検索する</p>
+      <div class="search-box">
+        <div class="serch-inputbox">
+          <input type="text" placeholder="法人名を入力">
+          <button></button>
+        </div>
+      </div>
+
+      <p class="page_title">法人の条件から検索</p>
+      <ul>
+  
+        <li><a href="">業種</a></li>
+        <li>
+          <ul>
+            <li><label for=""><input type="checkbox">調剤薬局</label></li>
+            <li><label for=""><input type="checkbox">病院</label></li>
+            <li><label for=""><input type="checkbox">調剤薬局・OTC販売</label></li>
+          </ul>
+        </li>
+
+        <li>拠点の所在地</li>
+        <li>
+          <ul>
+            <li>
+              <div><label for=""><input type="checkbox">北海道・東北</label></div>
+              <ul>
+                <li><label for=""><input type="checkbox">北海道</label></li>
+                <li><label for=""><input type="checkbox">青森県</label></li>
+                <li><label for=""><input type="checkbox">宮城県</label></li>
+                <li><label for=""><input type="checkbox">秋田県</label></li>
+                <li><label for=""><input type="checkbox">山形県</label></li>
+                <li><label for=""><input type="checkbox">福島県</label></li>
+              </ul>
+            </li>
+            <li>
+              <div></p><label for=""><input type="checkbox">関東</label></div>
+              <ul>
+                <li><label for=""><input type="checkbox">北海道</label></li>
+              </ul>
+            </li>
+            <li>
+              <div><label for=""><input type="checkbox">中部</label></div>
+            </li>
+          </ul>
+        </li>
+
+      </ul>
+
+    </div>
+
+  </main>
+
+  <div class="footerbutton-sigle">
+    <button type="submit" class="primary-button">条件を絞り込んで検索する</button>
+  </div>
+
+</body>
+</html>
