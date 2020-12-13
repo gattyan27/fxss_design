@@ -120,9 +120,15 @@
   padding: 120px 15px 100px;
 }
 
-.com_searchformbox {
-  padding-top: 125px;
+
+.com_searchwrap {
   background-color: #F7F6F2;
+  padding: 0 0 80px;
+}
+
+.com_searchtxtformbox {
+  padding-top: 125px;
+  padding-bottom: 30px;
 }
 
 .page_title {
@@ -130,4 +136,77 @@
   color: #6F3800;
   font-weight: 700;
   padding-left: 15px;
+  padding-bottom: 15px;
+}
+
+
+.com_searchcatbox {
+}
+
+.com_searchcattitle {
+}
+
+.com_searchcatformlist {
+  li.com_searchcattitle {
+    padding: 0 15px;
+    background-color: #ffffff;
+    a, span {
+      display: block;
+      font-weight: bold;
+      height: 50px;
+      line-height: 50px;
+      color: #6F3800;
+      background-color: #ffffff;
+      border-bottom: 1px solid #D1D1D1;
+    }
+  }
+  li.com_searchlist {
+    margin-bottom: 1px;
+    label {
+      display: block;
+      padding-left: 15px;
+      height: 50px;
+      width: 100%;
+      font-size: 1.4rem;
+      line-height: 50px;
+      background-color: #ffffff;
+    }
+    input[type="checkbox"] {
+      margin-right: 10px;
+    }
+  }
+}
+
+.com_searchareatitle {
+  margin-bottom: 1px;
+  label {
+    display: block;
+    padding-left: 15px;
+    height: 50px;
+    width: 100%;
+    font-size: 1.4rem;
+    line-height: 50px;
+    background-color: #ffffff;
+  }
+  input[type="checkbox"] {
+    margin-right: 10px;
+  }
+}
+
+.com_searcharea {
+  li {
+    margin-bottom: 1px;
+  }
+  label {
+    display: block;
+    padding-left: 35px;
+    height: 50px;
+    width: 100%;
+    font-size: 1.4rem;
+    line-height: 50px;
+    background-color: #ffffff;
+  }
+  input[type="checkbox"] {
+    margin-right: 10px;
+  }
 }

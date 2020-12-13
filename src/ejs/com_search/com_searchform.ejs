@@ -19,7 +19,8 @@
 
   <main>
 
-    <div class="com_searchformbox">
+  <div class="com_searchwrap">
+    <div class="com_searchtxtformbox">
       <p class="page_title">法人名で検索する</p>
       <div class="search-box">
         <div class="serch-inputbox">
@@ -27,25 +28,25 @@
           <button></button>
         </div>
       </div>
+    </div>
 
+    <div class="com_searchcatbox">
       <p class="page_title">法人の条件から検索</p>
-      <ul>
-  
-        <li><a href="">業種</a></li>
+      <ul class="com_searchcatformlist">
+        <li class="com_searchcattitle"><a href="">業種</a></li>
         <li>
           <ul>
-            <li><label for=""><input type="checkbox">調剤薬局</label></li>
-            <li><label for=""><input type="checkbox">病院</label></li>
-            <li><label for=""><input type="checkbox">調剤薬局・OTC販売</label></li>
+            <li class="com_searchlist"><label for=""><input type="checkbox">調剤薬局</label></li>
+            <li class="com_searchlist"><label for=""><input type="checkbox">病院</label></li>
+            <li class="com_searchlist"><label for=""><input type="checkbox">調剤薬局・OTC販売</label></li>
           </ul>
         </li>
-
-        <li>拠点の所在地</li>
+        <li class="com_searchcattitle"><span>現在の所在地</span></li>
         <li>
           <ul>
             <li>
-              <div><label for=""><input type="checkbox">北海道・東北</label></div>
-              <ul>
+              <div class="com_searchareatitle"><label for=""><input type="checkbox">北海道・東北</label></div>
+              <ul class="com_searcharea" style="">
                 <li><label for=""><input type="checkbox">北海道</label></li>
                 <li><label for=""><input type="checkbox">青森県</label></li>
                 <li><label for=""><input type="checkbox">宮城県</label></li>
@@ -55,25 +56,85 @@
               </ul>
             </li>
             <li>
-              <div></p><label for=""><input type="checkbox">関東</label></div>
-              <ul>
-                <li><label for=""><input type="checkbox">北海道</label></li>
+              <div class="com_searchareatitle"></p><label for=""><input type="checkbox">関東</label></div>
+              <ul class="com_searcharea" style="display: none;">
+                <li><label for=""><input type="checkbox">茨城県</label></li>
+                <li><label for=""><input type="checkbox">栃木県</label></li>
+                <li><label for=""><input type="checkbox">群馬県</label></li>
+                <li><label for=""><input type="checkbox">埼玉県</label></li>
+                <li><label for=""><input type="checkbox">千葉県</label></li>
+                <li><label for=""><input type="checkbox">東京都</label></li>
+                <li><label for=""><input type="checkbox">神奈川県</label></li>
               </ul>
             </li>
             <li>
-              <div><label for=""><input type="checkbox">中部</label></div>
+              <div class="com_searchareatitle"><label for=""><input type="checkbox">中部</label></div>
+              <ul class="com_searcharea" style="display: none;">
+                <li><label for=""><input type="checkbox">新潟県</label></li>
+                <li><label for=""><input type="checkbox">富山県</label></li>
+                <li><label for=""><input type="checkbox">石川県</label></li>
+                <li><label for=""><input type="checkbox">福井県</label></li>
+                <li><label for=""><input type="checkbox">山梨県</label></li>
+                <li><label for=""><input type="checkbox">長野県</label></li>
+                <li><label for=""><input type="checkbox">岐阜県</label></li>
+                <li><label for=""><input type="checkbox">静岡県</label></li>
+                <li><label for=""><input type="checkbox">愛知県</label></li>
+              </ul>
+            </li>
+            <li>
+              <div class="com_searchareatitle"><label for=""><input type="checkbox">近畿</label></div>
+              <ul class="com_searcharea" style="display: none;">
+                <li><label for=""><input type="checkbox">三重県</label></li>
+                <li><label for=""><input type="checkbox">滋賀県</label></li>
+                <li><label for=""><input type="checkbox">京都府</label></li>
+                <li><label for=""><input type="checkbox">大阪府</label></li>
+                <li><label for=""><input type="checkbox">兵庫県</label></li>
+                <li><label for=""><input type="checkbox">奈良県</label></li>
+                <li><label for=""><input type="checkbox">和歌山県</label></li>
+              </ul>
+            </li>
+            <li>
+              <div class="com_searchareatitle"><label for=""><input type="checkbox">中国</label></div>
+              <ul class="com_searcharea" style="display: none;">
+                <li><label for=""><input type="checkbox">鳥取県</label></li>
+                <li><label for=""><input type="checkbox">島根県</label></li>
+                <li><label for=""><input type="checkbox">岡山県</label></li>
+                <li><label for=""><input type="checkbox">広島県</label></li>
+                <li><label for=""><input type="checkbox">山口県</label></li>
+              </ul>
+            </li>
+            <li>
+              <div class="com_searchareatitle"><label for=""><input type="checkbox">四国</label></div>
+              <ul class="com_searcharea" style="display: none;">
+                <li><label for=""><input type="checkbox">徳島県</label></li>
+                <li><label for=""><input type="checkbox">香川県</label></li>
+                <li><label for=""><input type="checkbox">愛媛県</label></li>
+                <li><label for=""><input type="checkbox">高知県</label></li>
+              </ul>
+            </li>
+            <li>
+              <div class="com_searchareatitle"><label for=""><input type="checkbox">九州沖縄</label></div>
+              <ul class="com_searcharea" style="display: none;">
+                <li><label for=""><input type="checkbox">福岡県</label></li>
+                <li><label for=""><input type="checkbox">佐賀県</label></li>
+                <li><label for=""><input type="checkbox">長崎県</label></li>
+                <li><label for=""><input type="checkbox">熊本県</label></li>
+                <li><label for=""><input type="checkbox">大分県</label></li>
+                <li><label for=""><input type="checkbox">宮崎県</label></li>
+                <li><label for=""><input type="checkbox">鹿児島県</label></li>
+                <li><label for=""><input type="checkbox">沖縄県</label></li>
+              </ul>
             </li>
           </ul>
         </li>
-
       </ul>
-
     </div>
+  </div>
 
   </main>
 
   <div class="footerbutton-sigle">
-    <button type="submit" class="primary-button">条件を絞り込んで検索する</button>
+    <button type="submit" class="primary-button">法人の条件を絞り込んで検索する</button>
   </div>
 
 </body>
