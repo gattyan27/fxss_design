@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/assets/css/style.css">
+  <title></title>
+</head>
+<body>
+
+  <%- include('../_header'); -%>
+
+  <div class="headerundernav">
+    <div class="headerundernav_inner">
+      <a href="headerundernav_back">Back</a>
+      <p class="headerundernav_title">インターンシップ・仕事体験</p>
+    </div>
+  </div>
+
+  <main>
+
+  <div class="com_searchwrap">
+    <div class="com_searchtxtformbox">
+      <p class="page_title">法人名で検索する</p>
+      <div class="search-box">
+        <div class="serch-inputbox">
+          <input type="text" placeholder="法人名を入力">
+          <button></button>
+        </div>
+      </div>
+    </div>
+
+    <div class="com_searchcatbox">
+      <p class="page_title">インターンシップの条件から検索</p>
+      <ul class="com_searchcatformlist">
+        <li class="com_searchcattitle"><a href="">インターンシップの日数</a></li>
+        <li>
+          <ul>
+            <li class="com_searchlist"><label for=""><input type="checkbox">１日</label></li>
+            <li class="com_searchlist"><label for=""><input type="checkbox">２〜３日</label></li>
+            <li class="com_searchlist"><label for=""><input type="checkbox">４日以上</label></li>
+          </ul>
+        </li>
+        <li class="com_searchcattitle"><a href="">インターンシップの内容</a></li>
+        <li>
+          <ul>
+            <li class="com_searchlist"><label for=""><input type="checkbox">調剤実務</label></li>
+            <li class="com_searchlist"><label for=""><input type="checkbox">漢方</label></li>
+            <li class="com_searchlist"><label for=""><input type="checkbox">訪問同行</label></li>
+            <li class="com_searchlist"><label for=""><input type="checkbox">高度医療</label></li>
+            <li class="com_searchlist"><label for=""><input type="checkbox">在庫管理</label></li>
+            <li class="com_searchlist"><label for=""><input type="checkbox">店舗管理</label></li>
+            <li class="com_searchlist"><label for=""><input type="checkbox">服薬指導</label></li>
+            <li class="com_searchlist"><label for=""><input type="checkbox">薬栄連携</label></li>
+            <li class="com_searchlist"><label for=""><input type="checkbox">スポーツスポーツファーマシスト</label></li>
+            <li class="com_searchlist"><label for=""><input type="checkbox">無菌調剤体験</label></li>
+            <li class="com_searchlist"><label for=""><input type="checkbox">こども薬剤</label></li>
+            <li class="com_searchlist"><label for=""><input type="checkbox">メイク</label></li>
+            <li class="com_searchlist"><label for=""><input type="checkbox">アロマ</label></li>
+            <li class="com_searchlist"><label for=""><input type="checkbox">処方解析</label></li>
+            <li class="com_searchlist"><label for=""><input type="checkbox">在宅業務</label></li>
+            <li class="com_searchlist"><label for=""><input type="checkbox">検体検定</label></li>
+            <li class="com_searchlist"><label for=""><input type="checkbox">健康指導</label></li>
+            <li class="com_searchlist"><label for=""><input type="checkbox">かかりつけ薬局</label></li>
+            <li class="com_searchlist"><label for=""><input type="checkbox">チーム医療</label></li>
+            <li class="com_searchlist"><label for=""><input type="checkbox">緩和ケア</label></li>
+          </ul>
+        </li>
+        <li class="com_searchcattitle"><span>インターンシップ・仕事体験の実施場所</span></li>
+        <li>
+          <ul>
+            <li>
+              <div class="com_searchareatitle"><label for=""><input type="checkbox">北海道・東北</label></div>
+              <ul class="com_searcharea" style="">
+                <li><label for=""><input type="checkbox">北海道</label></li>
+                <li><label for=""><input type="checkbox">青森県</label></li>
+                <li><label for=""><input type="checkbox">宮城県</label></li>
+                <li><label for=""><input type="checkbox">秋田県</label></li>
+                <li><label for=""><input type="checkbox">山形県</label></li>
+                <li><label for=""><input type="checkbox">福島県</label></li>
+              </ul>
+            </li>
+            <li>
+              <div class="com_searchareatitle"></p><label for=""><input type="checkbox">関東</label></div>
+              <ul class="com_searcharea" style="display: none;">
+                <li><label for=""><input type="checkbox">茨城県</label></li>
+                <li><label for=""><input type="checkbox">栃木県</label></li>
+                <li><label for=""><input type="checkbox">群馬県</label></li>
+                <li><label for=""><input type="checkbox">埼玉県</label></li>
+                <li><label for=""><input type="checkbox">千葉県</label></li>
+                <li><label for=""><input type="checkbox">東京都</label></li>
+                <li><label for=""><input type="checkbox">神奈川県</label></li>
+              </ul>
+            </li>
+            <li>
+              <div class="com_searchareatitle"><label for=""><input type="checkbox">中部</label></div>
+              <ul class="com_searcharea" style="display: none;">
+                <li><label for=""><input type="checkbox">新潟県</label></li>
+                <li><label for=""><input type="checkbox">富山県</label></li>
+                <li><label for=""><input type="checkbox">石川県</label></li>
+                <li><label for=""><input type="checkbox">福井県</label></li>
+                <li><label for=""><input type="checkbox">山梨県</label></li>
+                <li><label for=""><input type="checkbox">長野県</label></li>
+                <li><label for=""><input type="checkbox">岐阜県</label></li>
+                <li><label for=""><input type="checkbox">静岡県</label></li>
+                <li><label for=""><input type="checkbox">愛知県</label></li>
+              </ul>
+            </li>
+            <li>
+              <div class="com_searchareatitle"><label for=""><input type="checkbox">近畿</label></div>
+              <ul class="com_searcharea" style="display: none;">
+                <li><label for=""><input type="checkbox">三重県</label></li>
+                <li><label for=""><input type="checkbox">滋賀県</label></li>
+                <li><label for=""><input type="checkbox">京都府</label></li>
+                <li><label for=""><input type="checkbox">大阪府</label></li>
+                <li><label for=""><input type="checkbox">兵庫県</label></li>
+                <li><label for=""><input type="checkbox">奈良県</label></li>
+                <li><label for=""><input type="checkbox">和歌山県</label></li>
+              </ul>
+            </li>
+            <li>
+              <div class="com_searchareatitle"><label for=""><input type="checkbox">中国</label></div>
+              <ul class="com_searcharea" style="display: none;">
+                <li><label for=""><input type="checkbox">鳥取県</label></li>
+                <li><label for=""><input type="checkbox">島根県</label></li>
+                <li><label for=""><input type="checkbox">岡山県</label></li>
+                <li><label for=""><input type="checkbox">広島県</label></li>
+                <li><label for=""><input type="checkbox">山口県</label></li>
+              </ul>
+            </li>
+            <li>
+              <div class="com_searchareatitle"><label for=""><input type="checkbox">四国</label></div>
+              <ul class="com_searcharea" style="display: none;">
+                <li><label for=""><input type="checkbox">徳島県</label></li>
+                <li><label for=""><input type="checkbox">香川県</label></li>
+                <li><label for=""><input type="checkbox">愛媛県</label></li>
+                <li><label for=""><input type="checkbox">高知県</label></li>
+              </ul>
+            </li>
+            <li>
+              <div class="com_searchareatitle"><label for=""><input type="checkbox">九州沖縄</label></div>
+              <ul class="com_searcharea" style="display: none;">
+                <li><label for=""><input type="checkbox">福岡県</label></li>
+                <li><label for=""><input type="checkbox">佐賀県</label></li>
+                <li><label for=""><input type="checkbox">長崎県</label></li>
+                <li><label for=""><input type="checkbox">熊本県</label></li>
+                <li><label for=""><input type="checkbox">大分県</label></li>
+                <li><label for=""><input type="checkbox">宮崎県</label></li>
+                <li><label for=""><input type="checkbox">鹿児島県</label></li>
+                <li><label for=""><input type="checkbox">沖縄県</label></li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  </main>
+
+  <div class="footerbutton-sigle">
+    <button type="submit" class="primary-button">インターンの条件を絞り込んで検索する</button>
+  </div>
+
+</body>
+</html>
