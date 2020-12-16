@@ -1,0 +1,50 @@
+@import "_settings";
+
+
+.search_result_container h2{
+    text-align: center;
+    font-weight: 700;
+    font-size: 13px;
+    padding: 28px 0 14px 0;
+
+}
+
+.medicine_result_list{
+    padding: 20px;
+    margin:2px 0;
+    background: #fff;
+    line-height: 1.6;
+}
+.medicine_result_list a{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.medicine_result_header{
+    display: flex;
+    margin-bottom: 13px;
+    display: flex;
+    justify-content: space-between;
+}
+.medicine_result_header h3{
+    font-size: 14px;
+    line-height: 1.6;
+    color: #4A4A4A;
+}
+.medicine_result_header h3:last-child{
+    margin-right: 18px;
+}
+.medicine_result_header h3 span{
+    color: #888888;
+    font-size: 11px;
+}
+.medicine_result_header p{
+    color: #4A4A4A;
+    font-size: 11px;
+    line-height: 1.6;
+}
+
+.medicine_result_footer{
+    margin-left: 20px;
+}
