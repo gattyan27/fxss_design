@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+    <title>ホーム</title>
+    <style type="text/css">
+        .page_header a:link { color:#6f3800; text-decoration:none }
+        .page_header a:visited { color:#6f3800; text-decoration:none }
+        .page_header a:hover { color:#6f3800; text-decoration:none }
+        .page_header a:active { color:#6f3800; text-decoration:none }
+     </style>
+</head>
+
+<body>
+    <%- include('_header'); -%>
+    <main>
+        <div class="home-content_100vh">
+
+            <div class="page_header">
+                <a href="#" class="page_header_back">
+                    <i class="fa fa-chevron-left" aria-hidden="true"></i>
+                    <p>Back</p>
+                </a>
+                <p class="page_header_title">関連問題</p>
+            </div>
+
+            <div class="img_title_yakugaku">
+                <img src="/assets/images/yakugaku_seminar_txt.png" alt="">
+            </div>
+
+            <article>
+                <section class="right_container">
+                    <p><span class="qa_errata_right">正解</span></p>
+                    <img src="/assets/images/right.png" alt="">
+                </section>
+
+                <!-- <section class="wrong_container">
+                    <p>不正解</p>
+                    <img src="/assets/images/wrong.png" alt="">
+                </section> -->
+
+                <section class="problem_statement">
+                    <p>
+                        65歳男性。週3回の血液透析が施行されており、処方1の薬剤を服用していた。<br>
+                        （処方1）<br>
+                        炭酸ランタン口腔内崩壊錠250 mg <br>
+                        1回2錠（1曰6錠）<br>
+                        1日3回　朝昼夕食直後　14日分<br>
+                        <br>
+                        今回の検査において、eGFR15 mL/min/1.73 m2、血中リン濃度5.5 mg/dL、補正血中カルシウム濃度9.0 mg/dL、血清アルブミン濃度3.7
+                        g/dL、ヘモグロビン値12.0
+                        g/dL、血清フェリチン値150 ng/mLという結果であった。また、患者から胃部不快感の訴えもあり処方2に変更となった。<br>
+                        （処方2）<br>
+                        スクロオキシ水酸化鉄チュアブル錠250 mg <br>
+                        1回2錠（1日3錠）<br>
+                        1日3回　朝昼夕食直前　14日分<br>
+                    </p>
+                </section>
+            </article>
+
+            <article>
+                <section class="commentary_txt">
+                    <h1>解説</h1>
+                    <p>１　正。スクロオキシ水酸化鉄は、消化管内でリン酸と結合し、消化管からのリンの吸収を抑制することにより、血清リン濃度低下作用を示す。<br>
+                        <br>
+                        ２　誤。スクロオキシ水酸化鉄は、腎性貧血には適応がなく、透析中の慢性腎臓病患者における高リン血症の改善に用いられる。<br>
+                        <br>
+                        ３　誤。スクロオキシ水酸化鉄の服用により便が黒色を呈することがある。また、口腔内が一時的に茶褐色に着色することがある。<br>
+                        <br>
+                        ４　正。透析患者は、規則正しい食事をとる必要があり、特にタンパク質、食塩、水分、カリウム、リンの摂取に注意する。よって、食品添加物由来の無機リンを多く含むハムやソーセージのとりすぎには注意が必要である。<br>
+                        <br>
+                        ５　誤。透析患者では、腎機能の低下による高カリウム血症が合併するリスクがある。よって、カリウムを多く含む果物や生野菜の過剰摂取には注意するように指導する。</p>
+                </section>
+
+                <section class="choices-content">
+
+                    <ul class="choices-checklist">
+                        <li><input type="checkbox" name="" id="choices1"><label for="choices1">1.リンの吸収を抑えるお薬です。</label>
+                        </li>
+                        <li><input type="checkbox" name="" id="choices2"><label
+                                for="choices2">２.腎性貧血にも効果があるお薬です。</label></li>
+                        <li><input type="checkbox" name="" id="choices3"><label
+                                for="choices3">3.鉄が含まれますが、便が黒くなることはありません。</label></li>
+                        <li><input type="checkbox" name="" id="choices4"><label
+                                for="choices4">4.食品添加物を多く含むハムやソーセージの摂りすぎには注意が必要です。</label></li>
+                        <li><input type="checkbox" name="" id="choices5"><label
+                                for="choices5">5.果物や生野菜を多く摂るようにしてください。</label></li>
+                    </ul>
+                </section>
+            </article>
+        </div>
+
+    </main>
+    <div class="footerbutton-double">
+        <div class="footerbutton-double-box">
+            <button type="submit" class="primary-button">次の問題へ</button>
+        </div>
+        <div class="footerbutton-double-box">
+            <button type="submit" class="cancel-button">一覧へ戻る</button>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
