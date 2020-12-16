@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+    <title>医薬品検索</title>
+</head>
+
+<body>
+    <%- include('_header'); -%>
+    <main>
+        <div class="home-content_100vh">
+
+            <div class="page_header">
+                <a href="#" class="page_header_back">
+                    <i class="fa fa-chevron-left" aria-hidden="true"></i>
+                    <p>Back</p>
+                </a>
+                <p class="page_header_title">調剤検索</p>
+            </div>
+
+            <div class="search-box">
+                <!-- 飯沢さんの完成まち -->
+                <div class="serch-inputbox">
+                    <input type="text" placeholder="一般名・薬品名を入力">
+                    <button></button>
+                </div>
+                <div class="search-title">
+                    <p>薬学生検索ランキング</p>
+                </div>
+                <ul class="search-ranking">
+                    <li class="search-rankinglist1"><a href=""><span>1位</span>アセトアミノフェン</a></li>
+                    <li class="search-rankinglist2"><a href=""><span>2位</span>クロルフェニラミンマレイン酸塩</a></li>
+                    <li class="search-rankinglist3"><a href=""><span>3位</span>エカテリシン錠5</a></li>
+                </ul>
+                <ul class="serch-rankingbottom">
+                    <li><a href=""><span>4位</span>トラネキサム酸</a></li>
+                    <li><a href=""><span>5位</span>フラジオマイシン硫酸塩</a></li>
+                </ul>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
