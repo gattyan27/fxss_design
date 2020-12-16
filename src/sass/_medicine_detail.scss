@@ -1,0 +1,102 @@
+@import "_settings";
+
+.medicine_detail{
+    margin: 0 15px;
+    line-height: 1.6;
+    .medicine_detail_header{
+        border-bottom: 1px solid $border-dafault;
+        padding: 20px 0 14px 0;
+        p{
+            color: $txt-heading;
+            font-size: 21px;
+            span{
+                color: $txt-thin;
+                margin-right: 12px;
+                font-size: 14px;
+            }
+        }
+    }
+    .medicine_detail_footer{
+        padding: 14px 0 14px 0;
+        p{
+            margin-bottom: 10px;
+            span{
+                color: $txt-thin;
+                font-size: 14px;
+            }            
+        }
+    }
+}
+
+
+.ingredient_container{
+    margin: 0 15px;
+    margin-bottom: 30px;
+    .ingredient_title{
+        font-size: 13px;
+        font-weight: 700;
+        color: $txt-heading;
+        margin-bottom: 15px;
+    }
+    .ingredient_card{
+        background: #fff;
+        border-radius: 3px;
+        box-shadow: 0 0 5px rgba(0,0,0,0.25);
+        padding: 16px 20px;
+    }
+}
+
+
+
+
+
+.prescription_container{
+    margin: 0 15px;
+    margin-bottom: 36px;
+    .prescription_title{
+        font-size: 13px;
+        font-weight: 700;
+        color: $txt-heading;
+        margin-bottom: 15px;
+        p{
+            text-align: right;
+            color: $txt-thin;
+            font-size: 10px;
+        }
+    }
+    .prescription_card li{
+        background: #fff;
+        padding: 14px 15px;
+        margin-bottom:1px;
+        a{
+            display: flex;
+            justify-content: space-between;
+            i{
+                margin-left: 20px
+            }
+        }
+    }
+}
+
+
+.next_qa_title{
+    margin:0 15px;
+    img{
+        width: auto;
+        margin-bottom: 15px;
+    }
+    p{
+        text-align: right;
+        color: $txt-thin;
+        font-size: 10px;
+    }
+}
+.next_qa_txt{
+    background: #FFFFFF;
+    border-radius: 3px;
+    padding: 14px 12px;
+    p{
+        color: $txt-qa;
+    }
+}
+
