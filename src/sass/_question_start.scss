@@ -1,0 +1,98 @@
+@import "_settings";
+
+
+.home-content_100vh{
+    padding: 64px 0 0;
+    background-color: $body-backgraound-color;
+    height: 100vh;
+}
+
+a:link { color:#6f3800; text-decoration:none }
+a:visited { color:#6f3800; text-decoration:none }
+a:hover { color:#6f3800; text-decoration:none }
+a:active { color:#6f3800; text-decoration:none }
+
+.page_header{
+    background-color: $page-header-color;
+    display: flex;
+    align-items: center;
+    padding: 16px 10px;
+    position: relative;
+    margin-bottom: 15px;
+    a{
+        display: flex;
+        margin-right: 0 auto;
+        border: none;
+        color: #6f3800;
+        span{
+            margin-left: 10px;
+            color: #6F3800!important;
+        }
+    } 
+    .page_header_title{
+        text-align: center;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translateY(-50%) translateX(-50%);
+        -webkit-transform: translateY(-50%) translateX(-50%);
+        color: $txt-dark-brown;
+        font-weight: 700;
+    }
+}
+
+
+
+
+.card_question_start{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 26px 18px;
+    border-radius: 3px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.25);
+    background: #fff;
+    margin: 15px 15px;
+    img{
+        width: auto;
+    }
+    a{
+        display: flex;
+        align-items: center;
+        p{
+            margin-right: 28px;
+            color: #963620;
+            font-weight: 700;
+        }
+    }
+}
+
+
+.progress{
+    background-color: #E8E8E8;
+    height: 0.8rem;
+    border-radius: 10px;
+    margin-top: 12px;
+    margin-right: 18px;
+    .progress-bar{
+        background: linear-gradient(to right, #EDCA09, #3DC600);
+        height: 0.8rem;
+        border-radius: 10px;
+        width: 30%;
+    }
+}
+
+.answers_numbers{
+    font-size: 21px;
+    color: #33B180;
+}
+
+
+.title_box{
+    text-align: center;
+    margin-top: 50px;
+    font-weight: 700;
+    .title_color_brown{
+        color: #963620;
+    }
+}

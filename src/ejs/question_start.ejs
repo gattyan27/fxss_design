@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+    <title>ホーム</title>
+
+    <style type="text/css">
+       .page_header a:link { color:#6f3800; text-decoration:none }
+       .page_header a:visited { color:#6f3800; text-decoration:none }
+       .page_header a:hover { color:#6f3800; text-decoration:none }
+       .page_header a:active { color:#6f3800; text-decoration:none }
+    </style>
+</head>
+
+<body>
+    <%- include('_header'); -%>
+    <main>
+        <div class="home-content_100vh">
+
+            <div class="page_header">
+                <a href="#" class="page_header_back" id="color_dark_brown">
+                    <i class="fa fa-chevron-left" aria-hidden="true"></i>
+                    <p>Back</p>
+                </a>
+                <p class="page_header_title">国試練習問題</p>
+            </div>
+
+            <div class="card_question_start">
+                <img src="/assets/images/yakugaku_seminar.png" alt="">
+                <a href="#">
+                    <p>回答を始める</p>
+                    <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                </a>
+            </div>
+
+            <div class="title_box">
+                <h2 class="title_color_brown">問題を始めましょう。</h2>
+            </div>
+
+        </div>
+
+    </main>
+</body>
+
+</html>
