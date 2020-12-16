@@ -14,37 +14,32 @@
     margin:2px 0;
     background: #fff;
     line-height: 1.6;
+    a{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .medicine_result_header{
+            display: flex;
+            margin-bottom: 13px;
+            display: flex;
+            justify-content: space-between;
+            h3{
+                font-size: 14px;
+                line-height: 1.6;
+                color: $txt-heading;
+                span{
+                    color: $txt-thin;
+                    font-size: 11px;
+            }
+            p{
+                color: $txt-heading;
+                font-size: 11px;
+                line-height: 1.6;
+            }
+        }
+        .medicine_result_footer{
+            margin-left: 20px;
+        }
+    }
 }
-.medicine_result_list a{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.medicine_result_header{
-    display: flex;
-    margin-bottom: 13px;
-    display: flex;
-    justify-content: space-between;
-}
-.medicine_result_header h3{
-    font-size: 14px;
-    line-height: 1.6;
-    color: #4A4A4A;
-}
-.medicine_result_header h3:last-child{
-    margin-right: 18px;
-}
-.medicine_result_header h3 span{
-    color: #888888;
-    font-size: 11px;
-}
-.medicine_result_header p{
-    color: #4A4A4A;
-    font-size: 11px;
-    line-height: 1.6;
-}
-
-.medicine_result_footer{
-    margin-left: 20px;
 }
