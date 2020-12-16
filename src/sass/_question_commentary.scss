@@ -1,0 +1,47 @@
+@import "_settings";
+
+.right_container{
+    background: #fff;
+    border-radius: 3px;
+    border: 1px solid #D00000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 34px;
+    margin: 12px 15px 0px 15px;
+    p{
+        font-size: 24px;
+        color: #D00000;
+    }
+    img{
+        width: auto;
+    }
+}
+.wrong_container{
+    background: #fff;
+    border-radius: 3px;
+    border: 1px solid #5F89A8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 34px;
+    margin: 12px 15px 0px 15px;
+    p{
+        font-size: 24px;
+        color: #5F89A8;
+    }
+    img{
+        width: auto;
+    }
+}
+.commentary_txt{
+    background: #FFFFFF;
+    border-radius: 3px;
+    padding: 14px 12px;
+    margin: 10px 15px 10px 15px;
+    h1{
+        color: #252669;
+        font-weight: 700;
+        margin-bottom: 15px;
+    }
+}
