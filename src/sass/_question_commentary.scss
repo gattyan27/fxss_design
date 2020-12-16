@@ -40,8 +40,11 @@
     padding: 14px 12px;
     margin: 10px 15px 10px 15px;
     h1{
-        color: #252669;
+        color: $txt-qa;
         font-weight: 700;
         margin-bottom: 15px;
+    }
+    P{
+        color: $commentary-txt;
     }
 }

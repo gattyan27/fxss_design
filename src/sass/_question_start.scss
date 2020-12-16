@@ -17,10 +17,10 @@
         display: flex;
         margin-right: 0 auto;
         border: none;
-        color: #6f3800;
+        color: $txt-dark-brown;
         p{
             margin-left: 10px;
-            color: #6F3800!important;
+            color: $txt-dark-brown;
         }
     } 
     .page_header_title{
@@ -55,8 +55,11 @@
         align-items: center;
         p{
             margin-right: 28px;
-            color: #963620;
+            color: $txt-brown;
             font-weight: 700;
+        }
+        i{
+            color: $icon-blue;
         }
     }
 }
@@ -87,6 +90,6 @@
     margin-top: 50px;
     font-weight: 700;
     .title_color_brown{
-        color: #963620;
+        color: $txt-brown;
     }
 }

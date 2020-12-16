@@ -15,7 +15,7 @@
     padding: 14px 12px;
     margin: 24px 15px 10px 15px;
     p{
-        color: #4A4A4A;
+        color: $txt-heading;
     }
 }
 
@@ -26,19 +26,17 @@
     padding: 14px 12px;
     margin: 10px 15px 10px 15px;
     h1{
-        color: #252669;
+        color: $txt-qa;
         font-weight: 700;
         margin-bottom: 15px;
     }
     p{
-        color: #252669;
+        color: $txt-qa;
     }
 }
 
 .choices-content{
     padding-bottom: 80px;
-    background-color: #ffffff;
-    background-color: #F7F6F2;
 }
 
 .choices-checklist li {

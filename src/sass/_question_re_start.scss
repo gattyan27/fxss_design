@@ -11,7 +11,7 @@
         justify-content: space-between;
         p{
             font-size: 14px;
-            color: #963620;
+            color: $txt-brown;
         }
         .qa_errata_right{
             color: #F22222;
@@ -29,7 +29,7 @@
             margin-right: 16px;
         }
         i{
-            color: #236ED5;
+            color: $icon-blue;
         }
     }
 }
