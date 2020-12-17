@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+    <title>医薬品検索結果</title>
+</head>
+
+<body>
+    <%- include('_header'); -%>
+    <main>
+        <div class="home-content">
+            <div class="line_container">
+                <!-- タイトル -->
+                <div class="page_header">
+                    <a href="#" class="page_header_back">
+                        <i class="fa fa-chevron-left" aria-hidden="true"></i>
+                        <p>Back</p>
+                    </a>
+                    <p class="page_header_title">一般財団法人 積善病院</p>
+                </div>
+
+                <!-- ▼会話エリア scrollを外すと高さ固定解除 -->
+                <div class="line_contents scroll">
+
+                    <!-- 自分の吹き出し -->
+                    <div class="line_right">
+                        <div class="text">自分のメッセージ欄、メッセージダミー、メッセージダミー、メッセージダミー、メッセージダミー、メッセージダミー、メッセージダミー</div>
+                    </div>
+
+                    <div class="line_center">
+                        <div class="text">2020年10月22日</div>
+                    </div>
+
+                    <!-- 相手の吹き出し -->
+                    <div class="line_left">
+                        <div class="line_left_text">
+                            <div class="text">ご応募ありがとうございます。</div>
+                        </div>
+                    </div>
+
+                    <div class="line_right">
+                        <div class="text">来年の春に大学を卒業します。御社の社風に惹かれて、インターンシップの応募をいたしました。よろしくお願いいたします。</div>
+                    </div>
+
+                </div>
+                <!--　▲会話エリア ここまで -->
+                <div class="footer_btn_triple">
+                    <div class="footer_btn_left">
+                        <img src="/assets/images/clip.png" alt="">
+                        <input type="file">
+                    </div>
+                    <div class="footer_btn_textarea">
+                        <textarea name="" id="" cols="25" rows="2"></textarea>
+                    </div>
+                    <div>
+                        <button type="submit" class="footer_btn_right">
+                            <img src="/assets/images/submit_message.png" alt="">
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>

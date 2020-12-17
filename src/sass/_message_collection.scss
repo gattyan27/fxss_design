@@ -1,0 +1,45 @@
+@import "_settings";
+
+.message_title{
+    font-size: 18px;
+    font-weight: 700;
+    padding: 20px;
+    color: $txt-dark-brown;
+}
+
+.message_card_list{
+    display: flex;
+    justify-content: space-between;
+    background: #fff;
+    padding: 14px 20px;
+    margin-bottom: 1px;
+    .message_card_cnter{
+        width: 55%;
+        p{
+            font-size: 11px;
+            font-weight: 700;
+            line-height: 1.6;
+            color: $txt-heading;
+        }
+        .already_read{
+            color: $txt-thin;
+        }
+        
+    }
+    .message_card_right p{
+        font-size: 11px;
+        color: $txt-heading;
+    }
+    .message_card_right .already_read{
+        color: $txt-thin;
+    }
+    .circle{
+        width: 8px;
+        height: 8px;
+        border-radius: 50%;
+        background: #00EA6C;/*背景色*/
+        margin-right: 0;
+        margin-left: auto;
+        margin-top: 12px;
+    }
+}
