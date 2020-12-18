@@ -1,7 +1,9 @@
 @import "_settings";
 
 .header_pc{
-    display: flex;
+    display: none;
+    @include pc {
+        display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 10px 30px;
@@ -42,9 +44,10 @@
             }
         }
     }
-}
-.header_pc ul{
-    display: flex;
-    align-items: center;
+    ul{
+        display: flex;
+        align-items: center;
+    }
+      };
 }
 
