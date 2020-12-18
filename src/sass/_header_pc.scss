@@ -1,0 +1,50 @@
+@import "_settings";
+
+.header_pc{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+    background: #fff;
+    .header_pc_left{
+        width: 600px;
+        display: flex;
+        justify-content: space-between;
+        li{
+            text-align: center;
+            svg{
+                height: 35px;
+            }
+            p{
+                text-align: center;
+                padding-top: 10px;
+                color: #666666;
+            }
+        }    
+    }
+    .header_pc_right{
+        width: 250px;
+        display: flex;
+        justify-content: space-between;
+        .header_pc_icon{
+            display: flex;
+            align-items: center;
+            div{
+                margin-left:12px;
+                p{
+                    line-height: 1.6;
+                }
+                .header_pc_name{
+                    font-size: 21px;
+                    font-weight: 700;
+                    color: #4A4A4A;
+                }
+            }
+        }
+    }
+}
+.header_pc ul{
+    display: flex;
+    align-items: center;
+}
+
